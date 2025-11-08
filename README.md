@@ -42,9 +42,12 @@ The workflow follows the complete ML lifecycle — from **data preparation** and
 - Saved the cleaned dataset as `spotify_flat_file.pkl`.
 
 ### 2. Exploratory Data Analysis
-- Analyzed genre/subgenre distributions and relationships.  
+- Created an **initial data summary exported to Excel** to review key statistics and distributions.  
+- Generated a **YData Profiling HTML report** for an automatic and detailed overview of the dataset.  
+  🔗 [View the profiling report](EDA_Report_spotify.html)
+- Analyzed genre and subgenre distributions and relationships.  
 - Generated violin and boxplots for audio features across genres.  
-- Identified strong correlations:
+- Identified strong correlations:  
   - `energy ↔ loudness` (positive)  
   - `acousticness ↔ energy` (negative)  
   - `danceability ↔ valence` (positive)  
